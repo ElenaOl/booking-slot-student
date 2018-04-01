@@ -2,44 +2,54 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Datepicker - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/css/bootstrap-datetimepicker.min.css">
-  
-  <title>Booking mock interview for students</title>
-
- 
-  
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body>
-
-  <h1>Please Schedule your mock interview</h1>
-    <div class="container">
-        <div class="col-sm-6" style="height:130px;">
-            <div class="form-group">
-                <div class='input-group date' id='datetimepicker11'>
-                    <input type='text' class="form-control" />
-                    <span class="input-group-addon">
-                        <span class="glyphicon glyphicon-calendar">
-                        </span>
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
-  
-
-    
-    
-   
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/js/bootstrap-datetimepicker.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
-    
+ 
+<p>Date: <input type="text" id="datepicker"></p>
+<div class="all-time">
+    <div class="time" id="9">9:00 am</div>
+    <div class="time" id="10">10:00 am</div>
+    <div class="time" id="11">11:00 am</div>
+    <div class="time" id="12">12:00 pm</div>
+    <div class="time" id="1">1:00 pm</div>
+    <div class="time" id="2">2:00 pm</div>
+    <div class="time" id="3">3:00 pm</div>
+    <div class="time" id="4">4:00 pm</div>
+</div>
+<div id = "picked">
+    <p>you picked:</p>
+    <div id="date-picked"></div>
+    <div id="time-picked"></div>    
+    <button type="submit" id="submit">Confirm</button>
+</div>
+<script type="text/javascript" src="script.js"></script>
 </body>
-</html> 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
