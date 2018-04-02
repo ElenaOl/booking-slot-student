@@ -36,7 +36,7 @@ $('.time').hide();
 $('#picked').hide(); 
 
 
-//
+//showing the picked date and time
 $('.time').on('click', function() {
     $('#picked').show();
     var selectedDate = $('#datepicker').val();
