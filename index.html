@@ -7,13 +7,11 @@
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/resources/demos/style.css">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body>
  
 <p>Date: <input type="text" id="datepicker"></p>
-<div class="all-time">
+<div id="all-time">
     <div class="time" id="9">9:00 am</div>
     <div class="time" id="10">10:00 am</div>
     <div class="time" id="11">11:00 am</div>
@@ -24,11 +22,18 @@
     <div class="time" id="4">4:00 pm</div>
 </div>
 <div id = "picked">
-    <p>you picked:</p>
-    <div id="date-picked"></div>
-    <div id="time-picked"></div>    
-    <button type="submit" id="submit">Confirm</button>
+    
+        <text>You picked </text>
+        <text id="date-picked"></text>
+        <text> at </text>
+        <text id="time-picked"></text>
+        </br>
+        <button type="submit" id="submit">Confirm</button>
+    
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
