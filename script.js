@@ -52,7 +52,8 @@ $('#submit').on('click', function() {
     // $.post('url',
     // {
     //   date: selectedDate,
-    //   time: selectedTime
+    //   time: selectedTime,
+    //   user: email   
     // },
     // function(data,status){
     //     alert("Data: " + data + "\nStatus: " + status);
