@@ -21,6 +21,9 @@ function hideNotAvailableTimes (date){
 
 //creates datepicker
 $( "#datepicker" ).datepicker({
+    inline: true,
+    showOtherMonths: true,
+    dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
     beforeShowDay: function(date){ 
         $('.time').hide();
         $('#picked').hide();
@@ -31,6 +34,9 @@ $( "#datepicker" ).datepicker({
         hideNotAvailableTimes(date);   
     }
 });
+
+
+
 //hiding time picker and summary before choosing the date
 $('.time').hide();
 $('#picked').hide(); 
